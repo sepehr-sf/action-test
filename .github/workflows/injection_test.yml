@@ -2,10 +2,10 @@ name: Injection Test
 
 on:
   issues:
-	types:[opened]
+	types: [opened]
 
 jobs:
-  security-check:
+  Injection-Test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
