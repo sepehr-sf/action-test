@@ -12,5 +12,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Vulnerability Issue
-        run:
-		echo "New issue title is: ${{ github.event.issue.title }}"
+        run: echo "New issue title is: ${{ github.event.issue.title }}"
