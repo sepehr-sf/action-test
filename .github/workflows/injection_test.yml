@@ -5,9 +5,9 @@ name: Injection Test
     types: [opened]
 
 jobs:
-  Injection-Test:
+  injection-test:
     runs-on: ubuntu-latest
     steps:
       - name: Vulnerability Issue
-  	run: |
-  		echo "New issue title is: ${{ github.event.issue.title }}"
+        run: |
+          echo "New issue title is: ${{ github.event.issue.title }}"
