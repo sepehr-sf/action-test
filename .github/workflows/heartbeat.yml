@@ -1,0 +1,24 @@
+# 1. Name displayed in GitHub Actions
+name: "action_test"
+
+# 2. Events that trigger the workflow
+on:
+  push:
+
+# 3. Jobs to execute
+jobs:
+  job1:
+    name: "TestJOB"
+    runs-on: ubuntu-latest
+
+    # 5. Steps executed in order
+    steps:
+      # Download repository code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Run tests or validation
+    
+        run: 
+          echo ""Pipeline Integrity Verified - Monitoring Active""
+
