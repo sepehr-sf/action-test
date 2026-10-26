@@ -2,7 +2,7 @@ name: Injection Test
 
 on:
   issues:
-	type:[opened]
+	types:[opened]
 
 jobs:
   security-check:
