@@ -8,8 +8,5 @@ jobs:
   Injection-Test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Vulnerability Issue
         run: echo "New issue title is: ${{ github.event.issue.title }}"
